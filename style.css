@@ -1,0 +1,126 @@
+﻿/*
+Theme Name: The Night Owl
+Author: Mehdi Namvar
+Author URL: http://ilxanlar.com
+Version: 1.0 
+*/
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.1s ease-in;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 640px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    color: #555;
+    direction: ltr;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+    text-align: left;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+header a {
+    color: #999;
+    display: inline-block;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+header a h1 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+footer {
+    color: #999;
+    margin-top: 3rem;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0;
+}
+
+section {
+    min-height: calc(100vh - 20rem);
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 2rem 1.5rem;
+}
+
+section article.archive {
+    border-bottom: 1px dashed #eee;
+    padding: 1rem 0;
+}
+
+section article.archive:last-child {
+    border-bottom: none;
+}
+
+section article.single h1 {
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+section article.single .meta {
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.home-heading h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.home-heading p {
+    color: #999;
+    margin: 0;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+}
