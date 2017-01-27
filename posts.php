@@ -18,6 +18,6 @@
 
 <?php else : ?>
 
-    <?php get_template_part('empty'); ?>
+    <p>Currently there's no post here.</p>
 
 <?php endif; ?>
