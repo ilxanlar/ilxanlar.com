@@ -9,7 +9,9 @@
             </h1>
 
             <div class="meta">
-                Posted in <?php the_category(', ') ?> on <?php the_date() ?>
+                <span>موضوع: <?php the_category(', ') ?></span>
+
+                <span>تاریخ: <?php the_date() ?></span>
             </div>
 
             <div class="content">

@@ -10,6 +10,10 @@
             <div class="excerpt">
                 <?php the_excerpt() ?>
             </div>
+
+            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>">
+                <span>بیشتر بخوانید</span>
+            </a>
         </article>
 
     <?php endwhile; ?>
@@ -18,6 +22,6 @@
 
 <?php else : ?>
 
-    <p>Currently there's no post here.</p>
+    <p>در حال حاضر نوشته‌ای وجود ندارد.</p>
 
 <?php endif; ?>
